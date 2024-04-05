@@ -83,6 +83,9 @@
     margin: auto;
     margin-left: 0px;
 }
+.det1 a{
+    text-decoration: none;
+}
 
 /* member2 */
 .mem2{
@@ -95,6 +98,9 @@
 .det2{
     margin: auto;
     margin-right: 0px;
+}
+.det2 a{
+    text-decoration: none;
 }
 
 /* member3 */
@@ -109,6 +115,9 @@
     margin: auto;
     margin-left: 0px;
 }
+.det3 a{
+    text-decoration: none;
+}
 
 /* member4 */
 .mem4{
@@ -121,6 +130,9 @@
 .det4{
     margin: auto;
     margin-right: 0px;
+}
+.det4 a{
+    text-decoration: none;
 }
 
 /* member5 */
@@ -135,6 +147,9 @@
     margin: auto;
     margin-left: 0px;
 }
+.det5 a{
+    text-decoration: none;
+}
 
 /* member6 */
 .mem6{
@@ -147,6 +162,9 @@
 .det6{
     margin: auto;
     margin-right: 0px;
+}
+.det6 a{
+    text-decoration: none;
 }
 
 
@@ -162,6 +180,13 @@
 .we_do p{
     width: 50%;
     margin: auto;
+}
+.we_do_det{
+    display: flex;
+}
+.we_do img{
+    width: 30%;
+    margin-right: 40px;
 }
 
 
