@@ -13,30 +13,112 @@
                 <!-- navbar lists -->
                 <ul class="list">
                     <li class="item"><a href="#home">Home</a></li>
-                    <li class="item"><a href="#team" class="nav-link">Projects</a></li>
-                    <li class="item"><a href="#we_do" class="nav-link">Skills</a></li>
-                    <li class="item"><a href="#About" class="nav-link">About</a></li>
-                    <li class="item"><a href="#contact" class="nav-link">Contact</a></li>
+                    <li class="item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="item"><a href="#journey" class="nav-link">My Journey</a></li>
+                    <li class="item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="item"><a href="#last" class="nav-link">Contact</a></li>
                 </ul>
             </nav>
     
     
             <div class="home" id="home" >
                 <div class="details">
-                <h3 id="heading">Have an opensource project?</h3>
+                <p>Hello, I am</p>
+                <h3 id="heading">Nikhil R</h3>
+                <p1 style="color: #29e5f2;">Full Stack Developer</p1>
                 <p id="paragraph">Let us assist you in refining your open source project,
                    transforming it into a world-class endeavor. With our extensive network of talented developers and mentors, we'll provide the support and guidance you need to unlock its full potential.</p>
+                <button>My Resume</button>
                 </div>
                    <!-- image in home section -->
-                <img class="home_imh" src="assets/img/home_imh.png" alt="home img">
+                <img class="home_img" src="assets/img/nik_photo.jpeg" alt="home img">
             </div>
 
 
-            <div class="projects">
+            <div class="about" id="about">
+                <h2>About Me</h2>
+                <div class="about_det">
+                    <img src="assets/img/we_do_img.jpg" alt="">
+                    <p><b>I am a passinated web developer,</b><br>I am willing to work in a company and apply my knowledge to that work and provide the best performance and to gain the knowledge of the recent technologies. I can learn the recent technologies as fast I can and adopt those knowledge in projects and I will motivate the team to do the work in time.</p>
+                </div>
+            </div>
+
+
+            <div class="journey" id="journey">
+                <h2>My Journey</h2>
+                <div class="journey_det">
+                    <div class="sslc">
+                        <h3>SSLC</h3>
+                        <p>Eshwaramma School<br>Davangere</p>
+                    </div>
+                    <div class="be">
+                        <h3>B.E</h3>
+                        <p>GM Institute of Technology<br>Electronics and Communication<br>Davangere</p>
+                    </div>
+                </div>
+                <img src="assets/img/journey.jpg" alt="">
+                <div class="puc">
+                    <h3>PUC</h3>
+                    <p>Siddaganga PU college<br>Davangere</p>
+                </div>
+            </div>
+
+
+            <div class="skills" id="skills">
+                <h2>My Skills</h2>
+                <div class="skills_det">
+                    <div class="skills_img">
+                        <img src="assets/img/skills_img.jpg" alt="">
+                    </div>
+                    <div class="skills_bars">
+                        <!-- <h3>Technical</h3> -->
+                        <img src="assets/img/skills.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="projects" id="projects">
                 <h2>My Projects</h2>
                 <div class="pro1">
-                    <h3>project 1</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat laboriosam, cum rerum nam vitae blanditiis odio laudantium possimus error consequatur deserunt ipsum quos ipsam nesciunt quaerat dolores similique numquam cupiditate ratione laborum.</p>
+                    <div1>
+                        <img src="assets/img/project_img.jpg" alt="">
+                    </div1>
+                    <div2 class="pro1_det">
+                        <h3>Face Recognition Door Lock System</h3>
+                        <p>This project recognises the face of the authorized person and if he comes infront of the camera then the system recognises the person and the relay will activates and unlocks the door if the person is unotherized then the lock will not be unlocked. For this project the main components used is ESP32 which is a board
+                        and also it consists of a camera.
+                        </p>
+                    </div2>
+                </div>
+            </div>
+
+
+            <div class="last" id="last">
+                <h2 class="contact">Contact</h2>
+                <div class="contact_det">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name" class="name">NAME: </label><br>
+                            <input type="text" name="name" id="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="email">EMAIL: </label><br>
+                            <input type="email" name="name" id="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="phone">PHONE NUMBER: </label><br>
+                            <input type="phone" name="name" id="name" >
+                        </div>
+                        <div class="form-group">
+                            <label for="name" class="message">MESSAGE: </label><br>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="btn2">
+                            SEND
+                        </div>
+                    </form>
                 </div>
             </div>
     </header>
