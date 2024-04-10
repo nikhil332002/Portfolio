@@ -23,7 +23,7 @@
     height: 96px;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 .navbar ul{
     display: flex;
@@ -44,7 +44,7 @@
     display: flex;
 }
 .home img{
-    width: 48%;
+    width: 50%;
     margin-right: 72px;
     margin-top: 29px;
 }
@@ -52,13 +52,25 @@
     margin-left: 76px;
     margin-top: 122px;
 }
+.details button{
+    margin-top: 20px;
+    width: 13%;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 189, 189);
+    border: none;
+}
 .details h3{
     font-size: 2rem;
 }
 .details p{
     margin-top: 21px;
     font-size: 1.2rem;
+    width: 70%;
 }
+
 
 .team{
     margin-top: 45px;
@@ -70,37 +82,82 @@
     margin-bottom: 10px;
 }
 
+
 /* members details */
 /* member1 */
 .mem1{
     display: flex;
 }
 .mem1 img{
-    width: 10%;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 12%;
     margin-left: 40px;
+    z-index: 1;
 }
+
 .det1{
+    border: 2px solid red;
+    border-radius: 15px;
+    text-align: center;
     margin: auto;
-    margin-left: 0px;
+    margin-left: -22px;
+    margin-bottom: 0px;
+    width: 30%;
+    padding-left: 17px;
+
 }
 .det1 a{
     text-decoration: none;
+    margin-right: 19px;
 }
+#team_email1{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone1{
+    margin-right: 21px;
+}
+#team_github1{
+    margin-right: -61px;
+}
+/* / */
+
 
 /* member2 */
 .mem2{
     display: flex;
 }
 .mem2 img{
-    width: 10%;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 12%;
     margin-right: 40px;
 }
 .det2{
+    border: 2px solid red;
+    border-radius: 15px;
     margin: auto;
     margin-right: 0px;
+    margin-bottom: 0px;
+    margin-right: -22px;
+    padding-right: 17px;
+    width: 30%;
+    text-align: center;
 }
 .det2 a{
     text-decoration: none;
+    margin-right: 19px;
+}
+#team_email2{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone2{
+    margin-right: 21px;
+}
+#team_github2{
+    margin-right: -61px;
 }
 
 /* member3 */
@@ -108,15 +165,35 @@
     display: flex;
 }
 .mem3 img{
-    width: 10%;
+    border: 2px solid red;
+    width: 12%;
     margin-left: 40px;
+    border-radius: 15px;
+    z-index: 1;
 }
 .det3{
+    border: 2px solid red;
+    border-radius: 15px;
     margin: auto;
-    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-left: -22px;
+    width: 30%;
+    text-align: center;
+    padding-left: 17px;
 }
 .det3 a{
     text-decoration: none;
+    margin-right: 19px;
+}
+#team_email3{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone3{
+    margin-right: 21px;
+}
+#team_github3{
+    margin-right: -61px;
 }
 
 /* member4 */
@@ -124,15 +201,35 @@
     display: flex;
 }
 .mem4 img{
-    width: 10%;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 12%;
     margin-right: 40px;
 }
 .det4{
+    border: 2px solid red;
+    border-radius: 15px;
     margin: auto;
     margin-right: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    text-align: center;
+    margin-right: -22px;
+    padding-right: 17px;
 }
 .det4 a{
     text-decoration: none;
+    margin-right: 19px;
+}
+#team_email4{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone4{
+    margin-right: 21px;
+}
+#team_github4{
+    margin-right: -61px;
 }
 
 /* member5 */
@@ -140,15 +237,35 @@
     display: flex;
 }
 .mem5 img{
-    width: 10%;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 12%;
     margin-left: 40px;
+    z-index: 1;
 }
 .det5{
+    border: 2px solid red;
+    border-radius: 15px;
     margin: auto;
-    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-left: -22px;
+    width: 30%;
+    text-align: center;
+    padding-left: 17px;
 }
 .det5 a{
     text-decoration: none;
+    margin-right: 19px;
+}
+#team_email5{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone5{
+    margin-right: 21px;
+}
+#team_github5{
+    margin-right: -61px;
 }
 
 /* member6 */
@@ -156,16 +273,36 @@
     display: flex;
 }
 .mem6 img{
-    width: 10%;
+    border: 2px solid red;
+    border-radius: 15px;
+    width: 12%;
     margin-right: 40px;
 }
 .det6{
+    border: 2px solid red;
+    border-radius: 15px;
+    text-align: center;
     margin: auto;
     margin-right: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    margin-right: -22px;
+    padding-right: 17px;
 }
 .det6 a{
     text-decoration: none;
+    margin-right: 19px;
 }
+#team_email6{
+    margin-right: 24px;
+    margin-left: -93px;
+}
+#team_phone6{
+    margin-right: 21px;
+}
+#team_github6{
+    margin-right: -61px;
+} 
 
 
 .we_do{
@@ -177,46 +314,140 @@
     padding: 15px;
     margin-bottom: 30px;
 }
-.we_do p{
-    width: 50%;
+.services{
+    display: flex;
+}
+.wireframe_img{
+    margin-top: 61px;
+}
+.wireframe_p{
+    width: 61%;
     margin: auto;
+}
+.code_img{
+    margin-top: 38px;
+}
+.deploy_p{
+    width: 67%;
+    margin: auto;
+}
+.deploy_img{
+    margin-top: 44px;
+}
+
+.line{
+    margin: auto;
+    width: 90%;
+    margin-top: 80px;
+    border: 2px solid rgb(6, 227, 227);
+    border-radius: 5px;
 }
 .we_do_det{
     display: flex;
+    padding-top: 80px;
 }
-.we_do img{
-    width: 30%;
+.we_do_det_img{
+    width: 50%;
     margin-right: 40px;
+    margin-left: 120px;
 }
+.development{
+    border: 2px solid rgb(129, 128, 128);
+    box-shadow: 6px 6px 2px 1px rgb(175, 174, 174);
+    width: 32%;
+    padding: 15px;
+}
+.development img{
+    width: 30%;
+    margin: auto;
+}
+.design{
+    border: 2px solid rgb(129, 128, 128);
+    box-shadow: 6px 6px 2px 1px rgb(175, 174, 174);
+    margin-top: 110px;
+    padding: 10px;
+    width: 34%;
+}
+.design img{
+    width: 30%;
+}
+
 
 
 .contact{
     text-align: center;
     margin-top: 60px;
+    padding-bottom: 65px;
+}
+.contact_flex{
+    display: flex;
+    padding-top: 40px;
+}
+.contact_box{
+    background-color: rgb(233, 233, 242);
+    width: 22%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contact img{
+    width: 10%;
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.contact_links{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.contact_links a{
+    text-decoration: none;
+    color: black;
+}
+.contact_links a:hover{
+    text-decoration: underline;
 }
 .contact h2{
     border: 2px solid red;
     padding: 15px;
     margin-bottom: 20px;
 }
-.name{
+.contact_det{
+    margin: auto;
+    margin-right: 160px;
+}
+.contact_name{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding: 7px;
+    width: 90%;
+    border: 2px solid rgb(114, 114, 114);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contact_email{
+    margin-bottom: 20px;
+    font-weight: bolder;
+    padding: 7px;
+    width: 90%;
+    border: 2px solid rgb(114, 114, 114);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contact_text{
     margin-bottom: 7px;
     font-weight: bolder;
+    padding: 7px;
+    border: 2px solid rgb(114, 114, 114);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
-.email{
-    margin-bottom: 7px;
-    font-weight: bolder;
-}
-.phone{
-    margin-bottom: 7px;
-    font-weight: bolder;
-}
-.contact button{
-    padding: 5px;
-    width: 5%;
+.contact_send{
+    width: 25%;
+    padding: 8px;
+    border: none;
     border-radius: 5px;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: whitesmoke;
-    background-color: black;
+    background-color: rgb(6, 227, 227);
 }

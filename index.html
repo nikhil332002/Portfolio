@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
+    <script>
+        function assignment() {
+            document.getElementById("assignment1").classList.add("assignment1");
+        }
+    </script>
     <header>
-            <!-- navbar -->
+        <!-- navbar -->
         <nav class="navbar" id="navbar">
             <!-- logo in navbar -->
             <div class="logo">
@@ -21,20 +28,22 @@
             <ul class="list">
                 <li class="item"><a href="#home">About Us</a></li>
                 <li class="item"><a href="#team" class="nav-link">Our Team</a></li>
-                <li class="item"><a href="#we_do" class="nav-link">What We Do</a></li>
+                <li class="item"><a href="#we_do" class="nav-link">Our Services</a></li>
                 <li class="item"><a href="#contact" class="nav-link">Contact Us</a></li>
             </ul>
         </nav>
 
 
-        <div class="home" id="home" >
+        <div class="home" id="home">
             <div class="details">
-            <h3 id="heading">Have an opensource project?</h3>
-            <p id="paragraph">Let us assist you in refining your open source project,
-               transforming it into a world-class endeavor. With our extensive network of talented developers and mentors, we'll provide the support and guidance you need to unlock its full potential.</p>
+                <h3 id="heading">ABOUT US</h3>
+                <p id="paragraph">Let us assist you in refining your open source project,
+                    transforming it into a world-class endeavor. With our extensive network of talented developers and
+                    mentors, we'll provide the support and guidance you need to unlock its full potential.</p>
+                <button>Hire Us!</button>
             </div>
-               <!-- image in home section -->
-            <img class="home_imh" src="assets/img/team_home.jpg" alt="home img">
+            <!-- image in home section -->
+            <img class="home_img" src="assets/img/team_home1.jpg" alt="home img">
         </div>
 
         <div class="team" id="team">
@@ -44,15 +53,32 @@
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                     <div class="det1">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <span id="team_email1">niki123@gmail. com</span>
+                        <span id="team_phone1">1234567890</span>
+                        <a id="team_github1" href="#">github</a><br><br>
+                        <p id="team_role_det">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis.   
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="">Assignments</a>
                     </div>
+                    <!-- <div id="assignment1">
+                        nikhil
+                    </div> -->
                 </div>
                 <div class="mem2">
                     <div class="det2">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <p id="team_role_det">
+                            <span id="team_email2">niki123@gmail. com</span>
+                            <span id="team_phone2">1234567890</span>
+                            <a id="team_github2" href="#">github</a><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis. 
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="nikhil.html">Assignments</a>
                     </div>
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                 </div>
@@ -60,15 +86,29 @@
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                     <div class="det3">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <p id="team_role_det">
+                            <span id="team_email3">niki123@gmail. com</span>
+                            <span id="team_phone3">1234567890</span>
+                            <a id="team_github3" href="#">github</a><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis.                          
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="nikhil.html">Assignments</a>
                     </div>
                 </div>
                 <div class="mem4">
                     <div class="det4">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <p id="team_role_det">
+                            <span id="team_email4">niki123@gmail. com</span>
+                            <span id="team_phone4">1234567890</span>
+                            <a id="team_github4" href="#">github</a><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis.                            
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="nikhil.html">Assignments</a>
                     </div>
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                 </div>
@@ -76,15 +116,29 @@
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                     <div class="det5">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <p id="team_role_det">
+                            <span id="team_email1">niki123@gmail. com</span>
+                            <span id="team_phone1">1234567890</span>
+                            <a id="team_github1" href="#">github</a><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis.                            
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="nikhil.html">Assignments</a>
                     </div>
                 </div>
                 <div class="mem6">
                     <div class="det6">
                         <h3>name</h3>
-                        <p>developer</p>
-                        <a href="nikhil.html">View Profile</a>
+                        <p id="team_role">developer</p>
+                        <p id="team_role_det">
+                            <span id="team_email6">niki123@gmail. com</span>
+                            <span id="team_phone6">1234567890</span>
+                            <a id="team_github6" href="#">github</a><br><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat atque
+                            consectetur quis natus cupiditate laudantium perferendis corporis est perspiciatis.                           
+                        </p><br>
+                        <a id="team_profile" href="nikhil.html">View Profile</a>
+                        <a id="team_assignment" href="nikhil.html">Assignments</a>
                     </div>
                     <img src="assets/img/IMG_20230214_140557.jpg" alt="mem1">
                 </div>
@@ -94,32 +148,95 @@
 
         <div class="we_do" id="we_do">
             <h2>What We Do</h2>
+            <div class="services">
+                <div class="wireframe">
+                    <img class="wireframe_img" src="assets/img/wireframe.png" alt="">
+                    <h3>We Wireframe</h3>
+                    <p class="wireframe_p">We're here to assist you in planning and bringing your ideas to life through
+                        prototypes and wireframes, We offer expert wireframing services to kick start your digital
+                        projects with clarity and precision. Our wireframes serves as the foundational blueprints,
+                        guiding the entire design and development process</p>
+                </div>
+                <div class="code">
+                    <img class="code_img" src="assets/img/code.png" alt="">
+                    <h3>Code/Develop</h3>
+                    <p class="code_p">We specialize in crafting exceptional digital solutions tailored to your unique
+                        needs. With our coding and development services, We transform ideas into robust, scalable, and
+                        user-friendly applications</p>
+                </div>
+                <div class="deploy">
+                    <img class="deploy_img" src="assets/img/deploy.png" alt="">
+                    <h3>Deploy & Maintain</h3>
+                    <p class="deploy_p">We believe that the true measure of success lies in sustained growth and
+                        evaluation. Our deployment and maintenance services not only ensure the smooth launch of your
+                        digital product but also lay the groundwork for its continuous improvement and adaptation to
+                        changing needs</p>
+                </div>
+            </div>
+            <hr class="line">
             <div class="we_do_det">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ut asperiores doloribus consequatur nulla eveniet blanditiis, recusandae eius sed omnis suscipit harum rem vero, accusantium, cum iste dolor enim quidem nam assumenda?</p>
-            <img src="assets/img/we_do_img.jpg" alt="">
+                <img class="we_do_det_img" src="assets/img/service_img1.png" alt="">
+                <div>
+                    <div class="development">
+                        <h3>Development</h3>
+                        <img src="assets/img/development1.png" alt="">
+                        <img src="assets/img/development2.png" alt="">
+                        <img src="assets/img/development3.png" alt="">
+                        <img src="assets/img/development4.png" alt="">
+                        <img src="assets/img/development5.png" alt="">
+                    </div>
+                    <div class="design">
+                        <h3>Design</h3>
+                        <img src="assets/img/design1.png" alt="">
+                        <img src="assets/img/design2.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
 
-    </header>
-    <footer>
+
+
         <div class="contact" id="contact">
             <h2>Contact Us</h2>
-            <form action="">
-                <div class="name">
-                    <label for="name">Name</label>
-                    <input type="text" class="name" id="name">
+            <div class="contact_flex">
+                <div class="contact_box">
+                    <h3>Let's get in Touch</h3>
+                    <p>We're open for any suggestions or just to have a chat</p>
+                    <span class="contact_links">
+                        <img src="assets/img/contact_search_img.png" alt="">
+                        <a href="www.tensiletech.com">Website</a>
+                    </span>
+                    <span class="contact_links">
+                        <img src="assets/img/contact_mail_img.png" alt="">
+                        <a href="#">Mail</a>
+                    </span>
+                    <span class="contact_links">
+                        <img src="assets/img/contact_link_img.png" alt="">
+                        <a href="#">Linkedin</a>
+                    </span>
+                    <span class="contact_links">
+                        <img src="assets/img/contact_insta_img.png" alt="">
+                        <a href="#">Instagram   </a>
+                    </span>
                 </div>
-                <div class="email">
-                    <label for="email">Email</label>
-                    <input type="email" class="email" id="email">
+                <div class="contact_det">
+                    <form action="">
+                        <h3>Connect With us</h3>
+                        <div class="name">
+                            <input type="text" class="contact_name" id="name" placeholder="Name">
+                        </div>
+                        <div class="email">
+                            <input type="email" class="contact_email" id="email" placeholder="Email">
+                        </div>
+                        <div class="message">
+                            <textarea class="contact_text" id="" cols="27" rows="5" placeholder="Message"></textarea>
+                        </div>
+                        <button class="contact_send" type="submit">Send</button>
+                    </form>
                 </div>
-                <div class="phone">
-                    <label for="name">Phone</label>
-                    <input type="number" class="phone" id="phone">
-                </div>
-                <button type="submit">Submit</button>
-            </form>
+            </div>
         </div>
-    </footer>
+    </header>
 </body>
+
 </html>
