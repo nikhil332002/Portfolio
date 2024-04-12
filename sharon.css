@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(assets/img/sharon_background.jpg); */
+    /* background-position: center; */
+}
+/* navbar */
+.navbar{
+    background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+    height: 96px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    margin: auto;
+}
+.navbar ul li{
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 45px;
+    color: white;
+    font-size: large;
+}
+.navbar ul li a:hover{
+    text-decoration: underline black 4px;
+}
+
+.home{
+    display: flex;
+    background-image: url(assets/img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 10px;
+}
+.home_img{
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 110px;
+    margin-top: 11px;
+    margin-left: 20%;
+}
+.details{
+    color: white;
+    margin-left: 76px;
+    margin-top: 122px;
+}
+.details h3{
+    color: red;
+    font-size: 2rem;
+}
+
+.details p{
+    margin-top: 21px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid red;
+    background-color: black;
+    padding: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+.details button:hover{
+    background-color: white;
+    
+}
+
+.line1{
+    border: 2px solid white;
+}
+.about h2{
+    margin: auto;
+    color: white;
+    padding: 5px;
+    padding-left: 140px;
+}
+.about_det{
+    display: flex;
+    background-image: url(assets/img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.about_det1{
+    margin: auto;
+}
+.about_det img{
+    width: 25%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.about_det p{
+    margin: auto;
+    width: 70%;
+}
+
+
+.journey{
+    background-image: url(assets/img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 80px;
+}
+.journey h2{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+.journey2{
+    text-align: center;
+}
+#journey2{
+    width: 20%;
+}
+#year_2021{
+    margin-top: -65px;
+    color: white;
+}
+#circle2{
+    position: absolute;
+    background-color:black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -820px;
+    left: 355px;
+}
+.journey_flex{
+    display: flex;
+    margin-top: 85px;
+}
+.journey1{
+    text-align: center;
+    margin-right: -205px;
+    margin-left: 12px;
+}
+#journey1{
+    width: 40%;
+}
+#circle1{
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -633px;
+    left: 620px;
+}
+#year_2019{
+    margin-bottom: -65px;
+    color: white;
+}
+.journey3{
+    text-align: center;
+    margin-left: 20px;
+}
+#journey3{
+    width: 40%;
+}
+#year_2024{
+    margin-bottom: -65px;
+    color: white;
+}
+#circle3{
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -820px;
+    left: 885px;
+}

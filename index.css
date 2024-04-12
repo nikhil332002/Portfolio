@@ -89,11 +89,21 @@
     display: flex;
 }
 .mem1 img{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 15px;
-    width: 12%;
+    width: 15%;
     margin-left: 40px;
     z-index: 1;
+}
+.after1{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    left: 45px;
+    bottom: -228px;
+    background-color: rgb(233, 231, 231);
+    width: 13%;
+    text-align: center;
 }
 
 .det1{
@@ -103,7 +113,7 @@
     margin: auto;
     margin-left: -22px;
     margin-bottom: 0px;
-    width: 30%;
+    width: 33%;
     padding-left: 17px;
 
 }
@@ -112,16 +122,19 @@
     margin-right: 19px;
 }
 #team_email1{
-    margin-right: 24px;
-    margin-left: -93px;
+    margin-right: -37px;
+    margin-left: -44px;
 }
 #team_phone1{
-    margin-right: 21px;
+    margin-right: -35px;
 }
 #team_github1{
-    margin-right: -61px;
+    margin-right: -10px;
 }
-/* / */
+.det1 .team_loc1{
+    width: 13px;
+}
+
 
 
 /* member2 */
@@ -129,10 +142,19 @@
     display: flex;
 }
 .mem2 img{
-    border: 2px solid red;
     border-radius: 15px;
-    width: 12%;
+    width: 15%;
     margin-right: 40px;
+}
+.after2{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    right: 45px;
+    bottom: -465px;
+    background-color: rgb(233, 231, 231);
+    width: 14%;
+    text-align: center;
 }
 .det2{
     border: 2px solid red;
@@ -142,7 +164,7 @@
     margin-bottom: 0px;
     margin-right: -22px;
     padding-right: 17px;
-    width: 30%;
+    width: 33%;
     text-align: center;
 }
 .det2 a{
@@ -150,26 +172,40 @@
     margin-right: 19px;
 }
 #team_email2{
-    margin-right: 24px;
+    margin-right: 7px;
     margin-left: -93px;
 }
 #team_phone2{
-    margin-right: 21px;
+    margin-right: 7px;
 }
 #team_github2{
     margin-right: -61px;
 }
+.det2 .team_loc2{
+    width: 13px;
+    margin-right: 1px;
+}
+
 
 /* member3 */
 .mem3{
     display: flex;
 }
 .mem3 img{
-    border: 2px solid red;
-    width: 12%;
+    width: 15%;
     margin-left: 40px;
     border-radius: 15px;
     z-index: 1;
+}
+.after3{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    left: 45px;
+    bottom: -700px;
+    background-color: rgb(233, 231, 231);
+    width: 13%;
+    text-align: center;
 }
 .det3{
     border: 2px solid red;
@@ -177,7 +213,7 @@
     margin: auto;
     margin-bottom: 0px;
     margin-left: -22px;
-    width: 30%;
+    width: 33%;
     text-align: center;
     padding-left: 17px;
 }
@@ -186,14 +222,18 @@
     margin-right: 19px;
 }
 #team_email3{
-    margin-right: 24px;
+    margin-right: -37px;
     margin-left: -93px;
 }
 #team_phone3{
-    margin-right: 21px;
+    margin-right: -37px;
 }
 #team_github3{
-    margin-right: -61px;
+    margin-right: -35px;
+}
+.det3 .team_loc3{
+    width: 13px;
+    margin-right: 1px;
 }
 
 /* member4 */
@@ -201,10 +241,19 @@
     display: flex;
 }
 .mem4 img{
-    border: 2px solid red;
     border-radius: 15px;
-    width: 12%;
+    width: 15%;
     margin-right: 40px;
+}
+.after4{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    right: 45px;
+    bottom: -930px;
+    background-color: rgb(233, 231, 231);
+    width: 13%;
+    text-align: center;
 }
 .det4{
     border: 2px solid red;
@@ -212,7 +261,7 @@
     margin: auto;
     margin-right: 0px;
     margin-bottom: 0px;
-    width: 30%;
+    width: 33%;
     text-align: center;
     margin-right: -22px;
     padding-right: 17px;
@@ -222,14 +271,18 @@
     margin-right: 19px;
 }
 #team_email4{
-    margin-right: 24px;
+    margin-right: 7px;
     margin-left: -93px;
 }
 #team_phone4{
-    margin-right: 21px;
+    margin-right: 7px;
 }
 #team_github4{
     margin-right: -61px;
+}
+.det4 .team_loc4{
+    width: 13px;
+    margin-right: 1px;
 }
 
 /* member5 */
@@ -237,11 +290,20 @@
     display: flex;
 }
 .mem5 img{
-    border: 2px solid red;
     border-radius: 15px;
-    width: 12%;
+    width: 15%;
     margin-left: 40px;
     z-index: 1;
+}
+.after5{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    left: 45px;  
+    bottom: -1170px;
+    background-color: rgb(233, 231, 231);
+    width: 13%;
+    text-align: center;
 }
 .det5{
     border: 2px solid red;
@@ -267,16 +329,28 @@
 #team_github5{
     margin-right: -61px;
 }
+.det5 .team_loc5{
+    width: 13px;
+}
 
 /* member6 */
 .mem6{
     display: flex;
 }
 .mem6 img{
-    border: 2px solid red;
     border-radius: 15px;
-    width: 12%;
+    width: 15%;
     margin-right: 40px;
+}
+.after6{
+    position: absolute;
+    border: 2px solid red;
+    z-index: 1;
+    right: 45px;
+    bottom: -1400px;
+    background-color: rgb(233, 231, 231);
+    width: 13%;
+    text-align: center;
 }
 .det6{
     border: 2px solid red;
@@ -285,7 +359,7 @@
     margin: auto;
     margin-right: 0px;
     margin-bottom: 0px;
-    width: 30%;
+    width: 33%;
     margin-right: -22px;
     padding-right: 17px;
 }
@@ -294,15 +368,19 @@
     margin-right: 19px;
 }
 #team_email6{
-    margin-right: 24px;
+    margin-right: 7px;
     margin-left: -93px;
 }
 #team_phone6{
-    margin-right: 21px;
+    margin-right: 7px;
 }
 #team_github6{
     margin-right: -61px;
 } 
+.det6 .team_loc6{
+    width: 13px;
+    margin-right: 1px;
+}
 
 
 .we_do{
@@ -387,6 +465,7 @@
     background-color: rgb(233, 233, 242);
     width: 22%;
     margin: auto;
+    margin-right: 20px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -415,7 +494,7 @@
 }
 .contact_det{
     margin: auto;
-    margin-right: 160px;
+    margin-left: 120px;
 }
 .contact_name{
     margin-top: 10px;
