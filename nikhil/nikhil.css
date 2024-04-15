@@ -44,6 +44,7 @@
     border-radius: 50%;
     margin-right: 110px;
     margin-top: 29px;
+    box-shadow: 0px 0px 30px 15px #29e5f2;
 }
 .details{
     color: white;
@@ -93,6 +94,7 @@
 .about_det p{
     margin: auto;
     width: 40%;
+    font-size: 1.2rem;
 }
 
 
@@ -142,32 +144,114 @@
 }
 
 
+
 .skills{
     background-color: #1c1c1c;
+    padding-bottom: 90px;
 }
-.skills h2{
+#skills_skills{
+    background-color: #25a4ad;
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+}
+#skills_technical{
+    color: #29e5f2;
+    margin-left: 30%;
+    margin-top: 90px;
     margin-bottom: 20px;
-    background-color: #25a4ad;
 }
-.skills_det{
+.bar1{
     display: flex;
-    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 30%;
 }
-.skills_img img{
-    width: 64%;
+.b1{
+    border: 2px solid #29e5f2;
+    border-radius: 5px;
+    margin: 4px;
+    width: 45px;
+    background-color: #29e5f2;
 }
-.skills_bars img{
-    width: 70%;
-    margin-left: 75px;
+.skills_java{
+    margin-right: 86px;
+    color: white;
+}
+.skills_HTML{
+    margin-right: 78px;
+    color: white;
+}
+.skills_CSS{
+    margin-right: 95px;
+    color: white;
+}
+.skills_JAVASCRIPT{
+    margin-right: 65px;
+    color: white;
+}
+.skills_C{
+    margin-right: 70px;
+    color: white;
+}
+.skills_PHP{
+    margin-right: 96px;
+    color: white;
+}
+.skills_PYTHON{
+    margin-right: 61px;
+    color: white;
+}
+
+#b1{
+    background-color: aqua; 
+}
+.skill_bar{
+    margin: auto;
+    margin-left: 5px;
+    height: 10px;
+    background-color: white;
+    width: 48px;
+    border-radius: 5px;
+}
+.b1_java{
+    height: 10px;
+    background-color: #29e5f2;
+    border-radius: 5px;
+    animation: fillBars 2.5s 1;
+}
+#b1_php{
+    background-color: white;
+    border: white;
+    width: 49px;
+}
+#b1_python{
+    background-color: white;
+    border: white;
+    width: 49px;
+}
+.skills_JAVASCRIPT{
+    margin-right: 33px;
+}
+#b1_javascript{
+    background-color: white;
+    border: none;
+    width: 49px;
+}
+.skills_C{
+    margin-right: 113px;
+}
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
 
 
-.projects{
-    
-}
+
+
 .projects h2{
     background-color: #25a4ad;
     color: white;
@@ -188,6 +272,7 @@
 .pro1 p{
     margin-top: 5px;
     width: 70%;
+    font-size: 1.2rem;
 }
 .pro1_det{
     color: white;
@@ -197,9 +282,10 @@
 
 .last{
     background-color: #1c1c1c;
+    padding-bottom: 20px;
 }
 .contact_det{
-    margin-top: 0px;
+    margin-top: 15px;
     margin-left: 306px;
     width: 50%;
     height: 0%;
@@ -230,29 +316,33 @@
 #name {
     font-size: 17px;
     width: 45%;
-    box-shadow: 0px 0px 2px 1px #29e5f2;
-    /* color: #29e5f2; */
+    box-shadow: 4px 4px 3px 1px #29e5f2;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-
-/* name assigned to input box */
-.name {
-    color: white;
-    margin-left: -212px;
+#email{
+    border: none;
+    font-size: 17px;
+    width: 45%;
+    box-shadow: 4px 4px 3px 1px #29e5f2;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-
-.email {
-    color: white;
-    margin-left: -212px;
+#phone{
+    font-size: 17px;
+    width: 45%;
+    box-shadow: 4px 4px 3px 1px #29e5f2;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
-
-.phone {
-    color: white;
-    margin-left: -115px;
-}
-
-.message {
-    color: white;
-    margin-left: -140px;
+#message{
+    font-size: 17px;
+    box-shadow: 4px 4px 3px 1px #29e5f2;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .btn2{
     border: 2px solid #29e5f2;

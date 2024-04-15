@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url(img/sharon_background.jpg); */
+    /* background-position: center; */
+}
+/* navbar */
+.navbar{
+    background-color: black;
+    border-bottom: 2px solid white;
+    display: flex;
+    height: 96px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar ul{
+    display: flex;
+    margin: auto;
+}
+.navbar ul li{
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 45px;
+    color: white;
+    font-size: large;
+}
+.navbar ul li a:hover{
+    text-decoration: underline black 4px;
+}
+
+.home{
+    display: flex;
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 10px;
+}
+.home_img{
+    width: 25%;
+    border-radius: 10px;
+    margin-right: 110px;
+    margin-top: 11px;
+    margin-left: 20%;
+}
+.details{
+    color: white;
+    margin-left: 76px;
+    margin-top: 122px;
+}
+.details h3{
+    color: red;
+    font-size: 2rem;
+}
+
+.details p{
+    margin-top: 21px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    border: 2px solid red;
+    background-color: black;
+    padding: 8px;
+    border-radius: 18px;
+    font-weight: bold;
+}
+.details button:hover{
+    background-color: white;
+    
+}
+
+.line1{
+    border: 2px solid white;
+}
+.about h2{
+    margin: auto;
+    color: white;
+    padding: 5px;
+    padding-left: 140px;
+}
+.about_det{
+    display: flex;
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.about_det1{
+    margin: auto;
+}
+.about_det img{
+    width: 25%;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.about_det p{
+    margin: auto;
+    width: 70%;
+    font-size: 1.1rem;
+}
+
+
+.journey{
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 80px;
+}
+.journey h2{
+    color: white;
+    text-align: center;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+.journey2{
+    text-align: center;
+}
+#journey2{
+    width: 20%;
+}
+#year_2021{
+    margin-top: -65px;
+    color: white;
+}
+#circle2{
+    position: absolute;
+    background-color:black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -820px;
+    left: 355px;
+}
+.journey_flex{
+    display: flex;
+    margin-top: 85px;
+}
+.journey1{
+    text-align: center;
+    margin-right: -205px;
+    margin-left: 12px;
+}
+#journey1{
+    width: 40%;
+}
+#circle1{
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -633px;
+    left: 620px;
+}
+#year_2019{
+    margin-bottom: -65px;
+    color: white;
+}
+.journey3{
+    text-align: center;
+    margin-left: 20px;
+}
+#journey3{
+    width: 40%;
+}
+#year_2024{
+    margin-bottom: -65px;
+    color: white;
+}
+#circle3{
+    position: absolute;
+    background-color: black;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 1.5%;
+    bottom: -820px;
+    left: 885px;
+}
+
+
+.skills{
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 110px;
+}
+#skills_skills{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#skills_technical{
+    color: red;
+    margin-left: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bar1{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 30%;
+}
+.b1{
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 4px;
+    width: 45px;
+    background-color: red;
+}
+.skills_java{
+    margin-right: 86px;
+    color: white;
+}
+.skills_HTML{
+    margin-right: 78px;
+    color: white;
+}
+.skills_CSS{
+    margin-right: 95px;
+    color: white;
+}
+.skills_KOTLIN{
+    margin-right: 65px;
+    color: white;
+}
+.skills_CANVA{
+    margin-right: 70px;
+    color: white;
+}
+.skills_PHP{
+    margin-right: 96px;
+    color: white;
+}
+.skills_PYTHON{
+    margin-right: 61px;
+    color: white;
+}
+.skills_FIGMA{
+    margin-right: 75px;
+    color: white;
+}
+.skills_CPP{
+    margin-right: 99px;
+    color: white;
+}
+#b1{
+    background-color: aqua; 
+}
+.skill_bar{
+    margin: auto;
+    margin-left: 5px;
+    height: 10px;
+    background-color: white;
+    width: 48px;
+    border-radius: 5px;
+}
+.b1_java{
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#b1_kotlin{
+    border: white;
+    background: white;
+    width: 48px;
+}
+#b12_kotlin{
+    background-color: white;
+    border: white;
+    width: 48px;
+}
+#b1_php{
+    background-color: white;
+    border: white;
+}
+#b1_python{
+    background-color: white;
+    border: white;
+}
+#b1_figma{
+    background-color: white;
+    border: white;
+}
+
+.projects{
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 25px;
+}
+.projects h2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+.pro1{
+    display: flex;
+    margin-top: 30px;
+}
+.pro1 img{
+    width: 70%;
+    margin-left: 100%;
+    border-radius: 8px;
+}
+.pro1 p{
+    margin-top: 5px;
+    width: 70%;
+}
+.pro1_det{
+    color: white;
+    margin: auto;
+    margin-left: 20%;
+}
+.pro2{
+    display: flex ;
+    margin-top: 10px;
+}
+.pro2 img{
+    width: 70%;
+    margin-left: 83%;
+    border-radius: 8px;
+}
+.pro2 p{
+    margin-top: 5px;
+    width: 70%;
+}
+.pro2_det{
+    color: white;
+    margin: auto;
+    margin-left: 17%;
+}
+
+
+
+.last{
+    background-image: url(img/sharon_background.jpg);
+    background-position: center;
+    background-size: contain;
+    padding-bottom: 20px;
+}
+.contact_det{
+    margin-top: 15px;
+    margin-left: 306px;
+    width: 50%;
+    height: 0%;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* class contact */
+.contact {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* class form group */
+.form-group {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* input box */
+#name {
+    font-size: 17px;
+    width: 45%;
+    box-shadow: 4px 4px 3px 1px red;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#email{
+    border: none;
+    font-size: 17px;
+    width: 45%;
+    box-shadow: 4px 4px 3px 1px red;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#phone{
+    font-size: 17px;
+    width: 45%;
+    box-shadow: 4px 4px 3px 1px red;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#message{
+    font-size: 17px;
+    box-shadow: 4px 4px 3px 1px red;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.btn2{
+    border: 2px solid red;
+    color: white;
+    border-radius: 15px;
+    margin-left: 258px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 15%;
+    font-weight: bold;
+    padding: 4px;
+}
+.btn2:hover{
+    color: black;
+    background-color: white;
+    border-color: black;
+    box-shadow: -2px 2px 6px 6px red;
+    font-size: 17px;
+    padding: 4px;
+    margin-top: 8px;
+    cursor: pointer;
+}

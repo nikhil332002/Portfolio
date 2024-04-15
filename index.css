@@ -42,6 +42,7 @@
 
 .home{
     display: flex;
+    padding-bottom: 50px;
 }
 .home img{
     width: 50%;
@@ -77,13 +78,17 @@
 }
 .team h2{
     text-align: center;
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     padding: 15px;
-    margin-bottom: 10px;
 }
 
-
-/* members details */
+.team_members{
+    /* background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%); */
+    padding-top: 10px;
+}
+/* member details */
 /* member1 */
 .mem1{
     display: flex;
@@ -97,17 +102,18 @@
 }
 .after1{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
-    left: 45px;
-    bottom: -228px;
-    background-color: rgb(233, 231, 231);
+    left: 50px;
+    bottom: -315px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 13%;
     text-align: center;
 }
 
 .det1{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     text-align: center;
     margin: auto;
@@ -116,6 +122,23 @@
     width: 33%;
     padding-left: 17px;
 
+}
+#team_role{
+    font-weight: bold;
+    color: rgb(204, 136, 10);
+}
+#team_profile{
+    color: white;
+    background-color: rgb(204, 136, 10);
+    padding: 2px;
+    border-radius: 5px;
+}
+#team_assignment{
+    color: white;
+    background-color: rgb(204, 136, 10);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
 }
 .det1 a{
     text-decoration: none;
@@ -134,6 +157,97 @@
 .det1 .team_loc1{
     width: 13px;
 }
+#assignment1{
+    border: none2px solid rgb(136, 201, 254);
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment1 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment1.change{
+    border: 2px solid rgb(136, 201, 254);
+}
+#assignment2{
+    border: none2px solid rgb(136, 201, 254);
+    border-radius: 5px;
+    margin: auto;
+    margin-right: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment2 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment2.change{
+    border: 2px solid rgb(136, 201, 254);
+}
+#assignment3{
+    border: none2px solid rgb(136, 201, 254)red;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment3 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment3.change{
+    border: 2px solid rgb(136, 201, 254);
+}
+#assignment4{
+    border: none2px solid rgb(136, 201, 254);
+    border-radius: 5px;
+    margin: auto;
+    margin-right: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment4 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment4.change{
+    border: 2px solid rgb(136, 201, 254);
+}
+#assignment5{
+    border: none2px solid rgb(136, 201, 254);
+    border-radius: 5px;
+    margin: auto;
+    margin-left: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment5 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment5.change{
+    border: 2px solid rgb(136, 201, 254);
+}
+#assignment6{
+    border: none2px solid rgb(136, 201, 254);
+    border-radius: 5px;
+    margin: auto;
+    margin-right: -400px;
+    margin-bottom: 28px;
+    padding: 8px;
+}
+#assignment6 a{
+    text-decoration: none;
+    color: black;
+}
+#assignment6.change{
+    border: 2px solid red;
+}
+
 
 
 
@@ -148,16 +262,17 @@
 }
 .after2{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
     right: 45px;
-    bottom: -465px;
-    background-color: rgb(233, 231, 231);
+    bottom: -600px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 14%;
     text-align: center;
 }
 .det2{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     margin: auto;
     margin-right: 0px;
@@ -199,16 +314,17 @@
 }
 .after3{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
-    left: 45px;
-    bottom: -700px;
-    background-color: rgb(233, 231, 231);
+    left: 50px;
+    bottom: -885px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 13%;
     text-align: center;
 }
 .det3{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     margin: auto;
     margin-bottom: 0px;
@@ -222,14 +338,14 @@
     margin-right: 19px;
 }
 #team_email3{
-    margin-right: -37px;
-    margin-left: -93px;
+    margin-right: -42px;
+    margin-left: -90px;
 }
 #team_phone3{
-    margin-right: -37px;
+    margin-right: -40px;
 }
 #team_github3{
-    margin-right: -35px;
+    margin-right: -39px;
 }
 .det3 .team_loc3{
     width: 13px;
@@ -247,16 +363,17 @@
 }
 .after4{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
-    right: 45px;
-    bottom: -930px;
-    background-color: rgb(233, 231, 231);
+    right: 50px;
+    bottom: -1150px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 13%;
     text-align: center;
 }
 .det4{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     margin: auto;
     margin-right: 0px;
@@ -297,21 +414,22 @@
 }
 .after5{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
-    left: 45px;  
-    bottom: -1170px;
-    background-color: rgb(233, 231, 231);
+    left: 50px;  
+    bottom: -1435px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 13%;
     text-align: center;
 }
 .det5{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     margin: auto;
     margin-bottom: 0px;
     margin-left: -22px;
-    width: 30%;
+    width: 33%;
     text-align: center;
     padding-left: 17px;
 }
@@ -344,16 +462,17 @@
 }
 .after6{
     position: absolute;
-    border: 2px solid red;
     z-index: 1;
-    right: 45px;
-    bottom: -1400px;
-    background-color: rgb(233, 231, 231);
+    right: 50px;
+    bottom: -1730px;
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(209,136,79,1) 100%);
     width: 13%;
     text-align: center;
 }
 .det6{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     border-radius: 15px;
     text-align: center;
     margin: auto;
@@ -388,7 +507,8 @@
     margin-top: 50px;
 }
 .we_do h2{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     padding: 15px;
     margin-bottom: 30px;
 }
@@ -488,7 +608,8 @@
     text-decoration: underline;
 }
 .contact h2{
-    border: 2px solid red;
+    background: rgb(34,193,195);
+    background: linear-gradient(184deg, rgba(34,193,195,1) 0%, rgba(147,254,255,0.966999299719888) 100%);
     padding: 15px;
     margin-bottom: 20px;
 }

@@ -27,20 +27,20 @@
                 <p>Hello, I am</p>
                 <h3 id="heading">Nikhil R</h3>
                 <p1 style="color: #29e5f2;">Full Stack Developer</p1>
-                <p id="paragraph">Let us assist you in refining your open source project,
-                   transforming it into a world-class endeavor. With our extensive network of talented developers and mentors, we'll provide the support and guidance you need to unlock its full potential.</p>
+                <p id="paragraph">I assist you in refining your open source project,
+                   transforming it into a world-class endeavor. With my extensive talent, I will provide the support and guidance you need to unlock its full potential.</p>
                 <button>My Resume</button>
-                <!-- <a class="button" href="assets/img/Nikhil_R resume it.pdf" download="Nikhil R">hi</a> -->
+                <!-- <a class="button" href="img/Nikhil_R resume it.pdf" download="Nikhil R">hi</a> -->
                 </div>
                    <!-- image in home section -->
-                <img class="home_img" src="assets/img/nik_photo.jpeg" alt="home img">
+                <img class="home_img" src="img/nik_photo.jpeg" alt="home img">
             </div>
 
 
             <div class="about" id="about">
                 <h2>About Me</h2>
                 <div class="about_det">
-                    <img src="assets/img/we_do_img.jpg" alt="">
+                    <img src="img/we_do_img.jpg" alt="">
                     <p><b>I am a passinated web developer,</b><br>I am willing to work in a company and apply my knowledge to that work and provide the best performance and to gain the knowledge of the recent technologies. I can learn the recent technologies as fast I can and adopt those knowledge in projects and I will motivate the team to do the work in time.</p>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                         <p>GM Institute of Technology<br>Electronics and Communication<br>Davangere</p>
                     </div>
                 </div>
-                <img src="assets/img/journey.jpg" alt="">
+                <img src="img/journey.jpg" alt="">
                 <div class="puc">
                     <h3>PUC</h3>
                     <p>Siddaganga PU college<br>Davangere</p>
@@ -67,15 +67,71 @@
 
 
             <div class="skills" id="skills">
-                <h2>My Skills</h2>
-                <div class="skills_det">
-                    <div class="skills_img">
-                        <img src="assets/img/skills_img.jpg" alt="">
+                <h2 id="skills_skills">Skills</h2>
+                <h3 id="skills_technical">Technical</h3>
+                <div class="bar1">
+                    <p class="skills_java">JAVA</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <div class="skill_bar">
+                    <div class="b1_java"  style="max-width: 60%;"></div>
                     </div>
-                    <div class="skills_bars">
-                        <!-- <h3>Technical</h3> -->
-                        <img src="assets/img/skills.jpg" alt="">
+                </div>
+                <div class="bar1">
+                    <p class="skills_HTML">HTML</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <div class="skill_bar">
+                        <div class="b1_java"  style="max-width: 60%;"></div>
                     </div>
+                </div>
+                <div class="bar1">
+                    <p class="skills_CSS">CSS</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <div class="skill_bar">
+                        <div class="b1_java"  style="max-width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="bar1">
+                    <p class="skills_JAVASCRIPT">JAVASCRIPT</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1" id="b1_javascript"></span>
+                </div>
+                <div class="bar1">
+                    <p class="skills_C">C</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <div class="skill_bar">
+                        <div class="b1_java"  style="max-width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="bar1">
+                    <p class="skills_PHP">PHP</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1" id="b1_php"></span>
+                </div>
+                <div class="bar1">
+                    <p class="skills_PYTHON">PYTHON</p>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1"></span>
+                    <span class="b1" id="b1_python"></span>
                 </div>
             </div>
             
@@ -84,10 +140,10 @@
                 <h2>My Projects</h2>
                 <div class="pro1">
                     <div1>
-                        <img src="assets/img/project_img.jpg" alt="">
+                        <img src="img/project_img.jpg" alt="">
                     </div1>
                     <div2 class="pro1_det">
-                        <h3>Face Recognition Door Lock System</h3>
+                        <h3 style="color: #25a4ad; font-size: 1.5rem; font-weight: bolder;">Face Recognition Door Lock System</h3>
                         <p>This project recognises the face of the authorized person and if he comes infront of the camera then the system recognises the person and the relay will activates and unlocks the door if the person is unotherized then the lock will not be unlocked. For this project the main components used is ESP32 which is a board
                         and also it consists of a camera.
                         </p>
@@ -101,20 +157,16 @@
                 <div class="contact_det">
                     <form action="">
                         <div class="form-group">
-                            <label for="name" class="name">NAME: </label><br>
-                            <input type="text" name="name" id="name" >
+                            <input type="text" name="name" id="name" placeholder="Name">
                         </div>
                         <div class="form-group">
-                            <label for="name" class="email">EMAIL: </label><br>
-                            <input type="email" name="name" id="name" >
+                            <input type="email" name="name" id="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                            <label for="name" class="phone">PHONE NUMBER: </label><br>
-                            <input type="phone" name="name" id="name" >
+                            <input type="phone" name="name" id="phone" placeholder="Phone No">
                         </div>
                         <div class="form-group">
-                            <label for="name" class="message">MESSAGE: </label><br>
-                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="9" placeholder="Messsage"></textarea>
                         </div>
                         <div class="btn2">
                             SEND
